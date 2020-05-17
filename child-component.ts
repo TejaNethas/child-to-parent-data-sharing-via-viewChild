@@ -7,7 +7,11 @@ import { Component, OnInit} from '@angular/core';
 })
 export class ChildComComponent implements OnInit {
 
- viewChildMsg:string = "view child data passing from local child component to parent component(about component)";
+public childToParentMsg = "I am comming from child component by using view child method"; 
 
-
+//passing this string from child to parent via viewchild 
+ 
+   ngOnInit(): void {
+  }
+  
 }
